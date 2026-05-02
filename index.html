@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Software Developer & Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Rajesh Kumar K</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+        <i class="fas fa-moon" id="themeIcon"></i>
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Rajesh Kumar K</h1>
+      <p class="hero-subname">Software Developer & Designer</p>
+      <p class="hero-desc">
+        I'm a software developer focused on building responsive and user-friendly web applications. I enjoy turning ideas into real-world digital solutions.
+      </p>
+      <div class="hero-btns">
+        <a href="#about" class="btn btn-outline">About Me</a>
+        <a href="#contact" class="btn btn-primary">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/rajesh-kumar-b77222259/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:rajeshkumar952494@gmail.com" target="_blank" rel="noopener noreferrer" title="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <img src="rajesh.png" alt="Rajesh Kumar K" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span>Me</span></h2>
+      </div>
+      <p class="about-intro">I am a passionate software developer with a strong interest in web development and design. I enjoy learning new technologies and continuously improving my skills. I focus on creating clean, efficient, and user-friendly applications that solve real-world problems.</p>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-code"></i></div>
+          <h3>Developer</h3>
+          <p>I build responsive and high-performance web applications using HTML, CSS, JavaScript, and SQL.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-palette"></i></div>
+          <h3>Designer</h3>
+          <p>I create clean, user-friendly UI/UX designs with a strong focus on simplicity and usability.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon"><i class="fas fa-bolt"></i></div>
+          <h3>Quick Learner</h3>
+          <p>I quickly adapt to new technologies and continuously improve my skills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span>Skills</span></h2>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- Technical Skills -->
+        <div class="skills-group">
+          <h3 class="skills-group-title"><i class="fas fa-laptop-code"></i> Technical Skills</h3>
+          <div class="tech-skills-grid">
+            <div class="tech-card" data-skill="Java">
+              <div class="tech-card-inner">
+                <div class="tech-icon-wrap"><i class="fab fa-java"></i></div>
+                <span class="tech-name">Java</span>
+                <div class="tech-glow"></div>
+              </div>
+            </div>
+            <div class="tech-card" data-skill="HTML">
+              <div class="tech-card-inner">
+                <div class="tech-icon-wrap"><i class="fab fa-html5"></i></div>
+                <span class="tech-name">HTML</span>
+                <div class="tech-glow"></div>
+              </div>
+            </div>
+            <div class="tech-card" data-skill="CSS">
+              <div class="tech-card-inner">
+                <div class="tech-icon-wrap"><i class="fab fa-css3-alt"></i></div>
+                <span class="tech-name">CSS</span>
+                <div class="tech-glow"></div>
+              </div>
+            </div>
+            <div class="tech-card" data-skill="SQL">
+              <div class="tech-card-inner">
+                <div class="tech-icon-wrap"><i class="fas fa-database"></i></div>
+                <span class="tech-name">SQL</span>
+                <div class="tech-glow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Soft Skills -->
+        <div class="skills-group">
+          <h3 class="skills-group-title"><i class="fas fa-brain"></i> Soft Skills</h3>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-comments"></i></div>
+              <h4>Communication</h4>
+              <p>Clear and effective communicator, able to convey complex ideas simply.</p>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-lightbulb"></i></div>
+              <h4>Problem Solving</h4>
+              <p>Analytical thinker who breaks down challenges into actionable solutions.</p>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-clock"></i></div>
+              <h4>Time Management</h4>
+              <p>Organized and deadline-driven with strong prioritization skills.</p>
+            </div>
+            <div class="soft-skill-card">
+              <div class="soft-skill-icon"><i class="fas fa-paint-brush"></i></div>
+              <h4>Creativity</h4>
+              <p>Bringing fresh ideas and innovative thinking to every project and challenge.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span>Projects</span></h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-gas-pump"></i></div>
+            <div class="project-links">
+              <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+              <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Integrated Web-Based Dispatch System for Vehicle Refueling & Charging Assistance</h3>
+          <p>A full-stack web application that provides an integrated dispatch system for vehicle refueling and EV charging assistance. Built with a real-time backend using Node.js and Supabase to manage dispatch requests, track vehicles, and coordinate assistance efficiently.</p>
+          <div class="project-tags">
+            <span><i class="fab fa-html5"></i> HTML</span>
+            <span><i class="fab fa-css3-alt"></i> CSS</span>
+            <span><i class="fab fa-node-js"></i> Node.js</span>
+            <span><i class="fas fa-database"></i> Supabase</span>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-top">
+            <div class="project-icon"><i class="fas fa-user-circle"></i></div>
+            <div class="project-links">
+              <a href="#" title="View Code"><i class="fab fa-github"></i></a>
+              <a href="#" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3>Personal Portfolio Website</h3>
+          <p>Developed a personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and experience. Features a responsive design, dark/light theme toggle, smooth animations, and contact section.</p>
+          <div class="project-tags">
+            <span><i class="fab fa-html5"></i> HTML</span>
+            <span><i class="fab fa-css3-alt"></i> CSS</span>
+            <span><i class="fab fa-js"></i> JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Work <span>Experience</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Software Developer Intern</h3>
+                <p class="timeline-company"><i class="fas fa-building"></i> NXT Logic Software Solutions</p>
+                <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> Coimbatore, Tamil Nadu</p>
+              </div>
+              <span class="timeline-badge">Internship</span>
+            </div>
+            <p class="timeline-desc">
+              Worked as a software developer intern at NXT Logic Software Solutions, Coimbatore. 
+              Gained hands-on experience in web development, collaborated with the development team, 
+              and contributed to real-world projects using HTML, CSS, JavaScript, and SQL.
+            </p>
+            <div class="timeline-tags">
+              <span>HTML</span><span>CSS</span><span>Java</span><span>SQL</span><span>Team Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span>Me</span></h2>
+      </div>
+      <p class="contact-subtitle">I'm open to freelance projects, full-time roles, and collaborations. Feel free to reach out!</p>
+      <div class="contact-cards">
+        <a href="mailto:rajeshkumar952494@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+          <h3>Email Me</h3>
+          <p>rajeshkumar952494@gmail.com</p>
+          <span class="contact-card-btn">Send Email <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <a href="https://www.linkedin.com/in/rajesh-kumar-b77222259/" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-card-icon linkedin"><i class="fab fa-linkedin"></i></div>
+          <h3>LinkedIn</h3>
+          <p>linkedin.com/in/rajesh-kumar</p>
+          <span class="contact-card-btn">View Profile <i class="fas fa-arrow-right"></i></span>
+        </a>
+        <div class="contact-card no-link">
+          <div class="contact-card-icon location"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Location</h3>
+          <p>Tirunelveli, Tamil Nadu, India</p>
+          <span class="contact-card-btn">Based In India <i class="fas fa-globe"></i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p class="footer-thankyou">🙏 Thank You for Visiting!</p>
+      <p>Designed & Built with <span class="heart">❤️</span> by <strong>Rajesh Kumar K</strong></p>
+      <p class="footer-sub">Software Developer & Designer | Tirunelveli, Tamil Nadu</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
